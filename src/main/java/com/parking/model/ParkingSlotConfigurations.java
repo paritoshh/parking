@@ -8,5 +8,5 @@ public class ParkingSlotConfigurations {
 
     public static int totalNumbersOfSlots;
     public static TreeSet<Integer> availableSlots;
-    public static SortedMap<String, Integer> parkingStatus = new TreeMap<>();
+    public static SortedMap<Integer, ParkingSlot> parkingStatus = new TreeMap<>();
 }
