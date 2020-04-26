@@ -1,0 +1,17 @@
+
+squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Â—€I8ã¦Ë¸›.
+Psquid:S1481"-Remove this unused "command6" local variable.(ïÆˆĞøÿÿÿÿ8ê”¶¸›.
+\"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(¸ìù«üÿÿÿÿ8¡åÀ¸›.
+Psquid:S1481"-Remove this unused "command7" local variable.(óèÛúÿÿÿÿ8ê”¶¸›.
+Ÿsquid:S1186""€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Îï€Ü8ã¦Ë¸›.
+Psquid:S1481"-Remove this unused "command2" local variable.(Ï¶àÒüÿÿÿÿ8ê”¶¸›.
+Psquid:S1481	"-Remove this unused "command3" local variable.(—¢˜‚úÿÿÿÿ8ê”¶¸›.
+Ksquid:S1481
+"-Remove this unused "command4" local variable.(Å£Ãî8ê”¶¸›.
+Fsquid:S1172""(Remove this unused method parameter "s".(Îï€Ü8ã¦Ë¸›.
+Ÿsquid:S1186%"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¯çõú8¤ÜÄ¸›.
+¤squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(úèİùÿÿÿÿ8˜îË¸›.
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ş‡Èıÿÿÿÿ8†¡Ä¸›.
+Psquid:S1481"-Remove this unused "command5" local variable.(Ü®Ôûÿÿÿÿ8ê”¶¸›.
+Csquid:S1172"&Remove these unused method parameters.(Â—€I8ã¦Ë¸›.
+Fsquid:S1172%"(Remove this unused method parameter "i".(¯çõú8¤ÜÄ¸›.
