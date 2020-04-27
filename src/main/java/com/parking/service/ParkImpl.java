@@ -11,6 +11,9 @@ public class ParkImpl implements Park{
     public String doPark(String registrationNumber, String color) {
 
         Integer nearestAvailableSlot = ParkingSlotConfigurations.availableSlots.pollFirst();
+        if(nearestAvailableSlot==null){
+            return "Sorry, parking lot is full";
+        }
         ParkingSlot parkingSlot = new ParkingSlot();
         Vehicle vehicle = new Vehicle();
         vehicle.setColor(color);
@@ -18,6 +21,7 @@ public class ParkImpl implements Park{
         parkingSlot.setSlotId(nearestAvailableSlot);
         parkingSlot.setVehicle(vehicle);
         ParkingSlotConfigurations.parkingStatus.put(nearestAvailableSlot, parkingSlot);
+        ParkingSlotConfigurations.registrationNumberParkingSlotMapping.put(registrationNumber, nearestAvailableSlot);
         return ALLOCATION_MESSAGE+nearestAvailableSlot;
     }
 }

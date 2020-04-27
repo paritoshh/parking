@@ -8,12 +8,14 @@ import java.util.stream.IntStream;
 
 public class CreateParkingImpl implements CreateParking {
 
+    static final String PARKING_CREATED_MESSAGE = "Created parking lot with %s slots";
     @Override
-    public void createParking(Integer numberOfSlots) {
+    public String createParking(Integer numberOfSlots) {
 
         ParkingSlotConfigurations.totalNumbersOfSlots = numberOfSlots;
        // ParkingSlotConfigurations.availableNumbersOfSlots = numberOfSlots;
         ParkingSlotConfigurations.availableSlots = createAvailableSlots(numberOfSlots);
+        return String.format(PARKING_CREATED_MESSAGE, numberOfSlots);
 
     }
 

@@ -1,5 +1,5 @@
 
-Tsquid:S2696"6Make the enclosing method "static" or remove this set.(¢Ïü³8Õ«­º›.
-Ysquid:S2696"6Make the enclosing method "static" or remove this set.(ºéÎßüÿÿÿÿ8Õ«­º›.
-nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(‰ñ›‘øÿÿÿÿ8€õ‚½›.
 `squid:UselessImportCheck"0Remove this unused import 'java.util.SortedSet'.(ÆÙÉÛþÿÿÿÿ8Ž­‹½›.
+Tsquid:S2696"6Make the enclosing method "static" or remove this set.(¢Ïü³8üõÍ×›.
+Ysquid:S2696"6Make the enclosing method "static" or remove this set.(ºéÎßüÿÿÿÿ8çêØ›.
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(‰ñ›‘øÿÿÿÿ8çêØ›.

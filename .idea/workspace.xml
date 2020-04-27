@@ -33,6 +33,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
@@ -47,7 +48,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FetchParkingStatusImpl">
+  <component name="RunManager" selected="Application.ApplicationStarter">
     <configuration name="ApplicationStarter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.parking.ApplicationStarter" />
       <module name="parking" />
@@ -102,10 +103,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ApplicationStarter" />
         <item itemvalue="Application.FetchParkingStatusImpl" />
         <item itemvalue="Application.LeaveImpl" />
         <item itemvalue="Application.CreateParkingImpl" />
-        <item itemvalue="Application.ApplicationStarter" />
       </list>
     </recent_temporary>
   </component>
@@ -120,11 +121,38 @@
       <option name="presentableId" value="Default" />
       <updated>1587913031441</updated>
       <workItem from="1587913046836" duration="12359000" />
-      <workItem from="1587925835811" duration="1839000" />
+      <workItem from="1587925835811" duration="11247000" />
+      <workItem from="1588002564961" duration="33000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/parking/service/LeaveImpl.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/parking/service/LeaveImpl.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/parking/service/LeaveImpl.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/parking/service/FetchParkingStatusImpl.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

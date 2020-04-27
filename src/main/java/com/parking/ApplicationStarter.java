@@ -1,40 +1,54 @@
 package com.parking;
 
+import com.parking.service.CreateParkingImpl;
+import com.parking.service.FetchParkingStatusImpl;
+import com.parking.service.LeaveImpl;
+import com.parking.service.ParkImpl;
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.List;
+
 public class ApplicationStarter {
 
-    /*public static void main(String[] args) {
-       //Read file.
-        String command1 = "create_parking_lot 6";
-        String command2 = "park KA-01-HH-1234";
-        String command3 = "park KA-01-HH-9999";
-        String command4 = "park KA-01-BB-0001";
-        String command5 = "park KA-01-HH-7777";
-        String command6 = "leave KA-01-HH-3141 4";
-        String command7 = "status";
 
-        String command = command1.split(" ")[0];
-        //String command = command1.split(" ")[0];
-        switch (command){
-            case("create_parking_lot") : createParking(6);
-            break;
-            case("park") : park("KA-01-HH-1234");
-                break;
-            case("leave") : leave("KA-01-HH-1234", 6);
-                break;
-            case("status") : status();
+    public static void main(String[] args) {
+
+        File f = new File("src/main/resources/parking.txt");
+        String readLine = "";
+        StringBuilder outPutLine = new StringBuilder();
+        try {
+
+            BufferedReader b = new BufferedReader(new FileReader(f));
+
+            while ((readLine = b.readLine()) != null) {
+                List<String> input = List.of(readLine.split(" "));
+                String outPut = performAction(input);
+                outPutLine.append(outPut).append("\n");
+            }
+
+            System.out.println(outPutLine);
+
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
 
-    private static void status() {
+    private static String performAction(List<String> command) {
+
+        switch (command.get(0)){
+            case "create_parking_lot":
+                return new CreateParkingImpl().createParking(Integer.parseInt(command.get(1)));
+            case "park":
+                return new ParkImpl().doPark(command.get(1), "Red");
+            case "leave":
+                return new LeaveImpl().leave(command.get(1), Integer.parseInt(command.get(2)));
+            case "status":
+                return new FetchParkingStatusImpl().getParkingStatus();
+            default:
+                throw new RuntimeException("Invalid command in input file");
+        }
     }
-
-    private static void leave(String s, int i) {
-    }
-
-    private static void park(String s) {
-    }
-
-    private static void createParking(int i) {
-
-    }*/
 }
