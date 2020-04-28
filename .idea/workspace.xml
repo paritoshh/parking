@@ -1,7 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3203161f-ce93-43bd-bbd8-f98b14af709d" name="Default Changelist" comment="" />
+    <list default="true" id="d45e969f-92ef-40f2-a40f-f0e22d342df0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parking/exception/InvalidCommandException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/file_inputs_HUGE_DATA.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/4/142bce445ba925efedf70de7c635bf3b5510f0a7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/b/2b08e4c8f335e30bf517956acfecc0934a573cc1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/b/2b9e32096c7ca38ae9911c1aad4021e6a6c920e4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/d/2db9ac861bb953177ae1b688fd4023653b75f165" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/6/362b25a321d9b1e1419cc5de0c4c3198ddddd0c1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/a/7ac2364659f2e45ca1d8237eb6881c3f46ca3fd7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/b/8b01a9cf25062edaef5223139de9099834f697da" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/b/8baec2e3c46aeb8b08db1b1d49c74a5f107f764e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/a/9a42a33c94e0ea026698d80bd13b191b2a2dc656" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/a/9a6c83559eba95192643350a70ce7dbeb6f79b54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/7/a76e129e62c810ea9935d69cdfe915ca6bdc3af6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/4/b4c3b580a78cdb3f90b27af75f9ef9e40537cc76" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parking.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parking/ApplicationStarter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parking/ApplicationStarter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parking/model/ParkingSlot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parking/model/ParkingSlot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parking/model/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parking/model/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parking/service/CreateParkingImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parking/service/CreateParkingImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parking/service/FetchParkingStatusImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parking/service/FetchParkingStatusImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parking/service/Leave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parking/service/LeaveParking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parking/service/LeaveImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parking/service/LeaveParkingImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parking/service/ParkImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parking/service/ParkImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/parking.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/parking/ApplicationStarter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/parking/ApplicationStarter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/parking/model/ParkingSlot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/parking/model/ParkingSlot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/parking/model/Vehicle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/parking/model/Vehicle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/parking/service/CreateParkingImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/parking/service/CreateParkingImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/parking/service/FetchParkingStatusImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/parking/service/FetchParkingStatusImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/parking/service/Leave.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/parking/service/LeaveImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/parking/service/ParkImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/parking/service/ParkImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/parking.txt" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,10 +51,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -23,18 +66,32 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1b5DOnc5r4olxnZgpKgtEgWgKER" />
+  <component name="ProjectId" id="1b89pwNA4ElKAVVQT52W3lGFSbo" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="test.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Study\parking_git\parking\src" />
+      <recent name="C:\Study\parking_git\parking\src\test\java\com.parking\service" />
+      <recent name="C:\Study\parking_git\parking\src\main\resources" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -62,41 +119,64 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateParkingImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.parking.service.CreateParkingImpl" />
+    <configuration name="LeaveParkingImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="parking" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.parking.service.*" />
+          <option name="PATTERN" value="test.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="test.service" />
+      <option name="MAIN_CLASS_NAME" value="test.service.LeaveParkingImplTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FetchParkingStatusImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.parking.service.FetchParkingStatusImpl" />
+    <configuration name="LeaveParkingImplTest.leaveTest_success_scenario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="parking" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.parking.service.*" />
+          <option name="PATTERN" value="test.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="test.service" />
+      <option name="MAIN_CLASS_NAME" value="test.service.LeaveParkingImplTest" />
+      <option name="METHOD_NAME" value="leaveTest_success_scenario" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeaveImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.parking.service.LeaveImpl" />
+    <configuration name="LeaveParkingImplTest.leaveTest_vehicle_not_found_scenario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="parking" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.parking.service.*" />
+          <option name="PATTERN" value="test.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="test.service" />
+      <option name="MAIN_CLASS_NAME" value="test.service.LeaveParkingImplTest" />
+      <option name="METHOD_NAME" value="leaveTest_vehicle_not_found_scenario" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParkImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="parking" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.service" />
+      <option name="MAIN_CLASS_NAME" value="test.service.ParkImplTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -104,9 +184,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.ApplicationStarter" />
-        <item itemvalue="Application.FetchParkingStatusImpl" />
-        <item itemvalue="Application.LeaveImpl" />
-        <item itemvalue="Application.CreateParkingImpl" />
+        <item itemvalue="JUnit.LeaveParkingImplTest" />
+        <item itemvalue="JUnit.LeaveParkingImplTest.leaveTest_vehicle_not_found_scenario" />
+        <item itemvalue="JUnit.LeaveParkingImplTest.leaveTest_success_scenario" />
+        <item itemvalue="JUnit.ParkImplTest" />
       </list>
     </recent_temporary>
   </component>
@@ -115,42 +196,51 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3203161f-ce93-43bd-bbd8-f98b14af709d" name="Default Changelist" comment="" />
-      <created>1587913031441</created>
+      <changelist id="d45e969f-92ef-40f2-a40f-f0e22d342df0" name="Default Changelist" comment="" />
+      <created>1588003039735</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1587913031441</updated>
-      <workItem from="1587913046836" duration="12359000" />
-      <workItem from="1587925835811" duration="11247000" />
-      <workItem from="1588002564961" duration="33000" />
+      <updated>1588003039735</updated>
+      <workItem from="1588003050204" duration="26937000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/parking/service/LeaveImpl.java</url>
-          <line>17</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/parking/ApplicationStarter.java</url>
+          <line>85</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/parking/service/LeaveImpl.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/parking/service/LeaveImpl.java</url>
-          <line>23</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/parking/service/CreateParkingImpl.java</url>
+          <line>18</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/parking/service/FetchParkingStatusImpl.java</url>
-          <line>8</line>
+          <url>file://$PROJECT_DIR$/src/main/test/java/com/parking/service/FetchParkingStatusImplTest.java</url>
+          <line>44</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/service/FetchParkingStatusImplTest.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

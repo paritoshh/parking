@@ -1,16 +1,0 @@
-
-"squid:ClassVariableVisibilityCheck"ZMake availableSlots a static final constant or non-public and provide accessors if needed.(Ìšç8û²Ç¹›.
-ª"squid:ClassVariableVisibilityCheck
-"pMake registrationNumberParkingSlotMapping a static final constant or non-public and provide accessors if needed.(æÓŸÆşÿÿÿÿ8ÏŸÕ›.
-]squid:S1118":Add a private constructor to hide the implicit public one.(æÀÓ—ıÿÿÿÿ8¢•Ë¹›.
-msquid:S1444
-"JMake this "public static registrationNumberParkingSlotMapping" field final(æÓŸÆşÿÿÿÿ8ÏŸÕ›.
-;squid:S2386	"Make this member "protected".(Ş½ÃÏ8Ê­§½›.
-šsquid:S1319"|The type of the "availableSlots" object should be an interface such as "SortedSet" rather than the implementation "TreeSet".(Ìšç8ï®·»›.
-”"squid:ClassVariableVisibilityCheck"_Make totalNumbersOfSlots a static final constant or non-public and provide accessors if needed.(Ñ¡³å8¢•Ë¹›.
-Qsquid:S1444	"3Make this "public static parkingStatus" field final(Ş½ÃÏ8¿¾€½›.
-Wsquid:S1444"9Make this "public static totalNumbersOfSlots" field final(Ñ¡³å8¢•Ë¹›.
-@squid:S2386
-"Make this member "protected".(æÓŸÆşÿÿÿÿ8¾²Õ›.
-Rsquid:S1444"4Make this "public static availableSlots" field final(Ìšç8û²Ç¹›.
-"squid:ClassVariableVisibilityCheck	"YMake parkingStatus a static final constant or non-public and provide accessors if needed.(Ş½ÃÏ8¿¾€½›.

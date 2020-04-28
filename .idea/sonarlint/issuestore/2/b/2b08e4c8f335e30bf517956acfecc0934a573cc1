@@ -1,8 +1,0 @@
-
-osquid:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(»ƒõúøÿÿÿÿ8ïŠ†×›.
-Fsquid:S1148$"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¯ˆƒ×›.
-esquid:S001124"FDefine and throw a dedicated exception instead of using a generic one.(ŞÖ¤8¹¾ë×›.
-[
-squid:S106"9Replace this use of System.out or System.err by a logger.(¼‡Ã¶ùÿÿÿÿ8ºØ–×›.
-[
-squid:S106!"9Replace this use of System.out or System.err by a logger.(çÜ­Œıÿÿÿÿ8›ã¡Ø›.
